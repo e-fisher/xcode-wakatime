@@ -11,7 +11,7 @@
 set -e
 set -x
 
-url="https://codeload.github.com/wakatime/wakatime/zip/master"
+url="https://codeload.github.com/e-fisher/wakatime/zip/master"
 if [ -d "$INSTALL_DIR" ]; then
     extract_to="$INSTALL_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH"
 else
